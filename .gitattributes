@@ -1,0 +1,8 @@
+# Auto detect text files and normalize to LF line endings
+* text=auto eol=lf
+
+# Specify end-of-line normalization for specific file types.
+*.razor text eol=lf
+*.cs text eol=lf
+*.csproj text eol=lf
+*.css text eol=lf
